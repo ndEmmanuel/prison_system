@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inmate Visitation</title>
+    <link rel="icon" href="./logo2.png">
+    <style>
+      /* CSS styles go here */
+      *{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .header {
+        background-color: #9ea06a;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      h1 {
+        margin: 0;
+        font-size: 32px;
+      }
+      
+      .container {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #ccc;
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 20px;
+      }
+      
+      label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      input[type="text"], input[type="email"], input[type="date"] {
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+        outline: none;
+      }
+      
+      input[type="submit"] {
+        background-color: #929d5f;
+        border-radius: 5px;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 140px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+        border: none;
+        /* display: flex; */
+        justify-content: space-between;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #979f85;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Inmate Visitation</h1>
+    </div>
+    <div class="container">
+      <h2>Inmate Information</h2>
+      <form>
+        <div>
+          <label for="inmate-name">Name:</label>
+          <input type="text" id="inmate-name" name="inmate-name">
+        </div>
+        <div>
+          <label for="inmate-id">ID:</label>
+          <input type="text" id="inmate-id" name="inmate-id">
+        </div>
+        <div>
+          <label for="inmate-location">Location:</label>
+          <input type="text" id="inmate-location" name="inmate-location">
+        </div>
+      </form>
+      <h2>Visitor Information</h2>
+      <form>
+        <div>
+          <label for="visitor-name">Name:</label>
+          <input type="text" id="visitor-name" name="visitor-name">
+        </div>
+        <div>
+          <label for="visitor-email">Email:</label>
+          <input type="email" id="visitor-email" name="visitor-email">
+        </div>
+        <div>
+          <label for="visit-date">Visit Date:</label>
+          <input type="date" id="visit-date" name="visit-date">
+        </div>
+        <div>
+          <label for="visit-time">Visit Time:</label>
+          <input type="text" id="visit-time" name="visit-time">
+        </div>
+        <input type="submit" onclick="alert('You will get verfication code to your phone number and Email')" value="Submit" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./home page.html"><input type="submit" value="Back home" ></a>
+
+      </form>
+    </div>
+  </body>
+</html>
