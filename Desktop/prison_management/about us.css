@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background: rgb(72, 72, 43);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    background: rgb(72, 72, 43);
+    transition: all 0.3s ease;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  .about-us h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us p {
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    background: rgb(72, 72, 43);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  

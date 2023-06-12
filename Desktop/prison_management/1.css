@@ -1,0 +1,34 @@
+/* .main{
+    background-image: url(./police3.jpg);
+} */
+.sector{
+    left: 0;
+    background-image: url(police2.jpg);
+    width: 90%;
+    height: 600px;
+    /* background-repeat: no-repeat; */
+    animation: 1s linear infinite;
+}
+@keyframes animate{
+    0%{
+        /* scroll-behavior: auto; */
+        background-image: url(police1.jpg);
+        width: 90%;
+        height: 600px;
+        left: 0;
+    }
+    50%{
+        /* scroll-behavior: auto; */
+        background-image: url(police2.jpg);
+        width: 90%;
+        height: 600px;
+        left: 0;
+    }
+    100%{
+        /* scroll-behavior: auto; */
+        background-image: url(police3.jpg);
+        width: 90%;
+        height: 600px;
+        left: 0;
+    }
+}

@@ -1,0 +1,73 @@
+#services {
+                       background-color: #f5f5f5;
+                       padding: 80px 0;
+                     }
+                     
+                     .container {
+                       max-width: 1100px;
+                       margin: 0 auto;
+                       display: flex;
+                       flex-wrap: wrap;
+                       justify-content: space-between;
+                     }
+                     
+                     .service {
+                       flex-basis: calc(43.33% - 20px);
+                       background-color: #fff;
+                       padding: 30px;
+                       margin-bottom: 0px;
+                       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+                       text-align: center;
+                     }
+                     
+                     .service i {
+                       font-size: 36px;
+                       color: #42a5f5;
+                       margin-bottom: 0px;
+                       display: block;
+                     }
+                     
+                     .service h3 {
+                       font-size: 24px;
+                       margin-bottom: 0px;
+                     }
+                     
+                     .service p {
+                       font-size: 16px;
+                       color: #777;
+                       line-height: 1.6;
+                     }
+                     footer {
+                       background: rgb(72, 72, 43);
+                       color: #fff;
+                       padding: 1rem;
+                       text-align: center;
+                     }
+                     header {
+                       background: rgb(72, 72, 43);
+                       color: #fff;
+                       display: flex;
+                       /* justify-content: space-between; */
+                       align-items: center;
+                       padding: 0 2rem;
+                       position: absolute;
+                       top: 20px;
+                     }
+                     
+                     nav {
+                       display: flex;
+                       gap: 1rem;
+                     }
+                     
+                     nav a {
+                       color: #fff;
+                       text-decoration: none;
+                       padding: 1rem;
+                       font-size: 19px;
+                     }
+                     
+                     nav a:hover {
+                       background-color: #fff;
+                       background: rgb(72, 72, 43);
+                       transition: all 0.3s ease;
+                     }
